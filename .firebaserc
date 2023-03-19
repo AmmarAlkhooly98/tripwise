@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "tripwise-production"
-  }
+    "default": "tripwise-production",
+    "staging": "tripwise-staging"
+  },
+  "targets": {},
+  "etags": {}
 }
