@@ -35,7 +35,9 @@ const SimpleSnackbar = () => {
         onClose={handleClose}
         onClick={handleClose}
       >
-        {openGlobal && (variant === "error" || variant === "warning") ? (
+        {openGlobal &&
+        process.env.NODE_ENV !== "production" &&
+        (variant === "error" || variant === "warning") ? (
           <Alert
             variant="filled"
             severity={variant}
