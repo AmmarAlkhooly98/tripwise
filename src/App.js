@@ -6,7 +6,6 @@ import Map from "./components/Map/Map";
 import Notifications from "./components/Notifications/Notifications";
 
 function App() {
-  console.log(process.env);
   return (
     <>
       <CssBaseline />
